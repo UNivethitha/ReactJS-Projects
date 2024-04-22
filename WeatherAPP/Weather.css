@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #7793df;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(236, 233, 233);
+    text-align: center;
+}
+.searchicon img{
+    
+    height: 30px;
+    cursor: pointer;
+}
+.container{
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: black;
+}
+.input-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid #e9eaeb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+input.cityInput{
+    flex: 1;
+    border: none;
+    height: 30px;
+    outline: none;
+    color: #888;
+}
+.image{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.image img{
+    width: 110px;
+    height: 110px;
+    margin-bottom: 30px;
+}
+.temp,
+.location,
+.country{
+
+    margin-top: 5px;
+    font-size: 35px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.temp{
+    font-weight: 500;
+}
+.location{
+    color: #f9c240;
+    font-weight: 400;
+    font-size: 40px;
+}
+.country{
+    font-size: 18px;
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cord div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+.cord div span{
+    font-size: 14px;
+}
+.humidity-percent,
+.wind-percent,
+.cord div span:nth-child(2){
+    font-size: 22px;
+    font-weight: bold;
+    color: #666;
+    padding-top: 5px;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.element{
+    /* width: 100%; */
+    text-align: center;
+}
+.element img{
+    /* width: 70%; */
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.text{
+    font-size: 20px;
+    color: #888;
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    color: #4c85ee;
+}
+.copyright span{
+    color: #333;
+}
